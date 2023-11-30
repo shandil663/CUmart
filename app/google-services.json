@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956067324740",
+    "project_id": "cumart-d1385",
+    "storage_bucket": "cumart-d1385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956067324740:android:0f588ec8737dd53104ed11",
+        "android_client_info": {
+          "package_name": "com.example.cumart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSY6JOiyX2jqnA7DK_qwnQRCqUS-XcYpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

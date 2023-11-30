@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="390sp"
+    android:layout_height="120sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    android:layout_gravity="center_horizontal"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/rname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140sp"
+        android:layout_marginTop="37sp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Item price here" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8sp"
+        android:layout_gravity="center|end"
+        >
+        <TextView
+            android:id="@+id/what"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:padding="5sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:text="For sale" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/rdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125sp"
+        android:layout_marginTop="55sp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:maxLength="28"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:text="Item price here" />
+    <TextView
+        android:id="@+id/ndesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285sp"
+        android:layout_marginTop="55sp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:text="..." />
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="125sp"
+        android:layout_marginTop="10sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Item name here" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|start"
+        android:layout_marginTop="37sp"
+        android:layout_marginStart="125sp"
+        android:textColor="@color/green"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:text="₹" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8sp"
+        android:layout_gravity="center_horizontal|end"
+        android:layout_marginTop="155sp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="10sp"
+        app:cardCornerRadius="200sp"
+        android:elevation="5sp"
+        >
+        <ImageView
+            android:id="@+id/pimg"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/img_9" />
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>

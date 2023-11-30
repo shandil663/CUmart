@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="Home"
+    android:icon="@drawable/focusmode"/>
+
+
+    <item
+        android:id="@+id/chat"
+        android:title="Chats"
+        android:icon="@drawable/chatfocus"/>
+
+    <item
+        android:id="@+id/plus"
+        android:title="Sell"
+        android:icon="@drawable/sellfocus"/>
+
+    <item
+        android:id="@+id/acct"
+        android:title="Profile"
+        android:icon="@drawable/profilefocused"/>
+
+</menu>
